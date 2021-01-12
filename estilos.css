@@ -1,0 +1,87 @@
+
+.inicio {
+  font-family: 'Muli', sans-serif;
+  background: #f12711;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.header {
+    background: #f12711;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header__img-2 {
+    width: 10%;
+    margin-top: 170px;
+    margin-left: 80px;
+  }
+
+  .titulo-principal {
+    color:white ;
+    width: 60%;
+    margin-right: 450px;
+    margin-top: 200px;
+    margin-left: 40px;
+    font-size: 1.8rem;
+   
+  }
+
+h2 {
+  color: white;
+  margin-left: 30px;
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top:40px;
+  margin-left: 100px;
+  padding: 0px 30px;
+}
+
+.login-contenedor {
+background-color: none;
+border: 3px solid white;
+border-radius: 40px;
+color: white;
+padding: 50px 30px;
+height: 300px;
+width: 80%;
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+margin-bottom: 20px;
+margin-top: 120px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 2.0em;
+  margin-left: 450px;
+  margin-right: 500px;
+  padding: 10px 10px;
+}
+
+
+
+/*RESPONSIVE*/
+
+@media screen and (max-width:500px) {
+  body {
+    background: blue;
+  }
+}
